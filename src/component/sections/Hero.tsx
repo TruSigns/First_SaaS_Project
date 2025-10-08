@@ -18,11 +18,20 @@ export const Hero = () => {
               with AI
             </span>
           </h1>
+          {/* using a shared component for reuse */}
           <Paragraph className="mt-8">
             Accepting fate with AI means recognizing that technology will
             continue to evolve beyond our control, shaping the way we live,
             work, and think. It is about resistance but adaptation
           </Paragraph>
+          <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
+            <div className="flex sm:flex-row flex-col gap-5 w-full">
+              <form action="#" className="py-1 pl-6 w-full pr-1 flex gal-3 items-center text-heading-3
+              shadow-lg shadow-box-shadow border border-box-boarder bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary"></form>
+            </div>
+          </div>
+
+
         </div>
       </Container>
     </section>

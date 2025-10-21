@@ -1,3 +1,4 @@
+import Button from "../shared/Button";
 import Container from "../shared/Container";
 import Paragraph from "../shared/Paragraph";
 
@@ -46,6 +47,9 @@ export const Hero = () => {
                   </svg>
                   </span>
                   <input type="email" placeholder="Input your Email" className="w-full py-3 outline-none bg-transparent"/>
+                  <Button className ="min-w-max text-white" >
+                    <span className="hidden sm:flex relative-z[5]"> Get Started</span>
+                  </Button>
               </form>
             </div>
           </div>
